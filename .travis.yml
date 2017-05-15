@@ -1,4 +1,6 @@
 language: c++
 compiler: g++
+
 script:
 - make
+- bin/deposit-calc_test
