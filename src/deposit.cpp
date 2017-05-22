@@ -1,12 +1,14 @@
 #include "deposit.h"
 
-int zero(int &d, int ye){
+using namespace std;
+
+int one(int &d, int ye){
 	double s=ye;
 	s=s/100*90;
 	return s;
 }
 
-int one(int &d, int ye){
+int two(int &d, int ye){
 	int s=ye;
 	double p;
 	if (d==1)p = 0.02;
@@ -15,7 +17,7 @@ int one(int &d, int ye){
 	return s;
 }
 
-int two(int &d, int ye){
+int three(int &d, int ye){
 	int s=ye;
 	cout << d<< endl;
 	double p;
@@ -26,7 +28,7 @@ int two(int &d, int ye){
 
 }
 
-int three(int &d, int ye){
+int four(int &d, int ye){
 	int s=ye;
 	double p;
 	if (d==1)p = 0.12;

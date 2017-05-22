@@ -6,12 +6,11 @@
 #include <stdio.h>
 #include <cmath>
 
-using std::cout;
-using std::endl;
+using namespace std;
 
-int zero(int &d, int ye);
 int one(int &d, int ye);
 int two(int &d, int ye);
 int three(int &d, int ye);
+int four(int &d, int ye);
 
 #endif
